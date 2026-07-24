@@ -1,0 +1,17 @@
+THÔNG TIN FIRMWARE
+
+Tên firmware: OWASP IoTGoat
+
+Hệ điều hành: OpenWrt 18.06.2
+
+Kiến trúc: x86/generic
+
+Tên thiết bị: IoTGoat
+
+Giao diện quản trị: LuCI
+
+Máy chủ Web: uHTTPd
+
+Dịch vụ SSH: Dropbear
+
+Dịch vụ UPnP: miniupnpd

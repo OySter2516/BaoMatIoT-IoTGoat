@@ -1,0 +1,10 @@
+STT,Nội dung,Trạng thái
+1,Khởi động Docker,Thành công
+2,Khởi động QEMU,Thành công
+3,Khởi động firmware OpenWrt,Thành công
+4,Đăng nhập giao diện LuCI,Thành công
+5,Thu thập thông tin firmware,Hoàn thành
+6,Thu thập cấu hình mạng,Hoàn thành
+7,Thu thập cấu hình hệ thống,Hoàn thành
+8,Thu thập dịch vụ đang hoạt động,Hoàn thành
+9,Thu thập cấu hình máy chủ Web,Hoàn thành

@@ -1,0 +1,14 @@
+THÔNG TIN CÁC DỊCH VỤ
+
+Các dịch vụ đang hoạt động trên firmware:
+
+- uHTTPd
+- Dropbear
+- dnsmasq
+- miniupnpd
+- telnetd
+- ntpd
+- rpcd
+- netifd
+
+Trạng thái: Hoạt động bình thường.

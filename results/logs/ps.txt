@@ -1,0 +1,58 @@
+root@IoTGoat:/# ps
+  PID USER       VSZ STAT COMMAND
+    1 root      1032 S    /sbin/procd
+    2 root         0 SW   [kthreadd]
+    3 root         0 IW   [kworker/0:0]
+    4 root         0 IW<  [kworker/0:0H]
+    6 root         0 IW<  [mm_percpu_wq]
+    7 root         0 SW   [ksoftirqd/0]
+    8 root         0 IW   [rcu_sched]
+    9 root         0 IW   [rcu_bh]
+   10 root         0 SW   [migration/0]
+   11 root         0 SW   [cpuhp/0]
+   12 root         0 SW   [cpuhp/1]
+   13 root         0 SW   [migration/1]
+   14 root         0 SW   [ksoftirqd/1]
+   15 root         0 IW   [kworker/1:0]
+   16 root         0 IW<  [kworker/1:0H]
+   17 root         0 IW   [kworker/u4:1]
+   32 root         0 IW   [kworker/0:1]
+  422 root         0 SW   [oom_reaper]
+  423 root         0 IW<  [writeback]
+  425 root         0 SW   [kcompactd0]
+  426 root         0 IW<  [crypto]
+  427 root         0 IW<  [kblockd]
+  554 root         0 IW<  [ata_sff]
+  575 root         0 IW   [kworker/1:1]
+  689 root         0 SW   [kswapd0]
+  770 root         0 IW<  [pencrypt]
+  772 root         0 IW<  [pdecrypt]
+  793 root         0 IW<  [acpi_thermal_pm]
+  827 root         0 IW<  [ttm_swap]
+  870 root         0 SW   [scsi_eh_0]
+  871 root         0 IW<  [scsi_tmf_0]
+  874 root         0 SW   [scsi_eh_1]
+  875 root         0 IW<  [scsi_tmf_1]
+  927 root         0 IW<  [ipv6_addrconf]
+  961 root         0 IW<  [kworker/1:1H]
+  963 root         0 IW<  [kworker/0:1H]
+ 1031 root         0 SW<  [loop0]
+ 1034 root         0 SW   [f2fs_flush-7:0]
+ 1035 root         0 SW   [f2fs_discard-7:]
+ 1036 root         0 SW   [f2fs_gc-7:0]
+ 1046 root         0 IW<  [ext4-rsv-conver]
+ 1165 root       788 S    /sbin/ubusd
+ 1166 root      1000 S    /bin/ash --login
+ 1167 root       668 S    /sbin/askfirst /usr/libexec/login.sh
+ 1376 root       960 S    /sbin/rpcd -s /var/run/ubus.sock -t 30
+ 1403 root       828 S    /usr/sbin/dropbear -F -P /var/run/dropbear.1.pid -p
+ 1469 root      1160 S    /sbin/netifd
+ 1574 root      1344 S    /usr/sbin/uhttpd -f -h /www -r IoTGoat -x /cgi-bin -
+ 1576 root      1000 S    udhcpc -p /var/run/udhcpc-br-lan.pid -s /lib/netifd/
+ 1720 nobody     900 S    /usr/sbin/dnsmasq -C /var/etc/dnsmasq.conf -k -x /va
+ 1792 root       668 S    /usr/bin/shellback
+ 1794 root      1000 S    telnetd -p 65534
+ 1847 root      1004 S<   /usr/sbin/ntpd -n -N -S /usr/sbin/ntpd-hotplug -p 0.
+ 1982 root       868 S    /usr/sbin/miniupnpd -f /var/etc/miniupnpd.conf
+ 1996 root         0 IW   [kworker/u4:0]
+ 2002 root      1000 R    ps

@@ -1,0 +1,3 @@
+ps | grep telnet
+ 1795 root      1000 S    telnetd -p 65534
+ 2038 root      1000 S    grep telnet

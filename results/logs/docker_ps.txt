@@ -1,0 +1,3 @@
+PS C:\Users\ADMIN\Documents\GitHub\IoTGoat> docker ps
+CONTAINER ID   IMAGE                  COMMAND                CREATED      STATUS          PORTS                                                                                                                                   NAMES
+9c30ee090d5a   iotgoat-qemu-iotgoat   "/opt/entrypoint.sh"   6 days ago   Up 11 minutes   0.0.0.0:2222->2222/tcp, [::]:2222->2222/tcp, 0.0.0.0:4443->4443/tcp, [::]:4443->4443/tcp, 0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   iotgoat-qemu
